@@ -1,0 +1,79 @@
+@import url("https://uilight.netlify.app/main.css");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+
+:root {
+  --text-color-primary: #f9fafb;
+  --background-color: #111827;
+}
+
+body {
+  background-color: var(--background-color);
+  margin: 0; /* Remove default body margin */
+}
+
+.main {
+  padding: 2rem;
+  max-width: 800px; /* Set a maximum width */
+  width: 100%; /* Take full width on smaller screens */
+  margin: 0 auto; /* Center the container */
+}
+
+.heading-1 {
+  color: var(--text-color-primary);
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.input {
+  border-radius: 4px;
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  border: none;
+  width: 100%; /* Take full width */
+  margin-bottom: 0.5rem;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.t-checkbox {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.btn-primary {
+  font-size: 1.25rem;
+  padding: 0.5rem 0.875rem;
+}
+
+.todo {
+  color: var(--text-color-primary);
+  font-size: 1.5rem;
+}
+
+.todos-container {
+  max-height: 70vh; /* Limit height for smaller screens */
+  overflow-y: auto;
+}
+
+.t-pointer {
+  cursor: pointer;
+}
+
+.todos {
+  padding-bottom: 0.5rem;
+}
+
+.todo-text {
+  word-wrap: break-word;
+}
+
+.checked-todo {
+  text-decoration: line-through;
+  color: var(--text-color-primary);
+}
+
+.del-btn {
+    color: #f9fafb;
+}
